@@ -1,0 +1,47 @@
+<body>
+<link rel="stylesheet" href="file:///C|/wamp/www/PHP/jqwidgets/styles/layout.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="file:///C|/wamp/www/PHP/jqwidgets/styles/blakes_theme.css" type="text/css" />
+<link rel="stylesheet" href="file:///C|/wamp/www/PHP/jqwidgets/styles/jqx.base.css" type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="file:///C|/wamp/www/PHP/scripts/gettheme.js"></script>
+  <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxwindow.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxdatetimeinput.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxcalendar.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxtooltip.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxtabs.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/globalization/globalize.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxdocking.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxpanel.js"></script>
+    <script type="text/javascript" src="file:///C|/wamp/www/PHP/jqwidgets/jqxsplitter.js"></script>
+    
+<script type="text/javascript">
+	$(document).ready(function(){
+		//create jqxPanel
+		 var theme = getDemoTheme();
+		$('#docking').jqxDocking({ orientation:'horizontal', width:690, mode:'docked'});
+		$('#docking').jqxDocking('disableWindowResize', 'window1');
+		
+		
+	});
+</script>
+<div id='jqxWidget'>
+        <div id="docking">
+            <div>
+                <div id="window1" style="height: 220px;">
+                <div>
+                      BMI  News
+                </div>
+                    <div style="padding: 3px; margin: 10px; width: 150px; height: 84px; float: left;">
+                    	<script type="text/javascript" src="http://feed.informer.com/widgets/PYKBGN4W2X.js"></script>
+						<noscript><a href="http://feed.informer.com/widgets/PYKBGN4W2X.html">"Your new widget 1"</a>
+						Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
+  					 </div>
+                     </div>
+                     </div></div>
+
+  
+</div></body>

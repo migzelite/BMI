@@ -1,0 +1,48 @@
+.rss-feed {
+	 margin: 1em;
+	 width: 525px;
+	 background-color: #FFFFCC;
+	 border: 1px solid #FFFFCC;
+	 
+}
+.rss-items {
+	margin-top:0px;
+	padding:0.5em; 0.5em;
+	margin-left:0px;
+	color:#000000;
+}
+p.rss-title {padding:0.5em;}
+.rss-title {
+	font-size: 8pt;
+	background-color: #000000;
+	color: #ff6600;
+	font-weight:bold;
+	text-align: center;
+}
+
+.rss-item  {
+  color:#A0A0A4;
+  font-size: 7pt;
+  list-style:none;
+  padding-bottom:1em;
+}
+
+.rss-item a {
+	color:#A0A0A4;
+	font-size: 8pt;
+	font-weight:bold;
+	}
+	
+.rss-item a:visited {
+	color: #C2EBFF;
+}
+
+.rss-item a:hover {
+	color: #00FFFF;
+}
+
+
+.rss-date {
+	font-size: 7pt;
+	color: #FFFFCC;
+	} 
